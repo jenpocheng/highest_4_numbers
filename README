@@ -1,0 +1,27 @@
+Find the highest 4 number in an unordered list
+==============================================
+
+Overview
+--------
+highest_k is a function that finds the highest k numbers in an unordered list 
+of integers in O(k + nlogk) time. When k is constant, e.g. 4, the complexity 
+is O(n).
+
+
+Compiling and running the example
+-----------------------------------
+  cd src
+  make
+  ./highest_4
+
+
+Unit testing
+------------
+Google C++ testing framework is used as the testing platform for unit testing. 
+One example is included in the tests/testcases folder, and it tests three 
+basic situations, including normal cases, edge cases, and exceptional cases.
+To compile and see the results of the tests, run the following commands:
+
+  cd tests
+  make
+  ./highest_n_unittest
